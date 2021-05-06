@@ -1,0 +1,17 @@
+"""Given two integer numbers return their product.
+If the product is greater than 1000, then return their sum"""
+
+
+def my_function(a,b):
+
+    product = a * b
+
+    if product > 1000:
+        print('value of product is higher then 1000')
+        return product
+    else:
+        print('value of product is lower then 1000')
+        return a + b
+
+
+my_function(1000, 2)
